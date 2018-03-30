@@ -157,7 +157,7 @@ def create_txt_record(args):
 
     if retries <= 0:
         logger.error("Error resolving TXT record in domain {0}".format(domain))
-        sys.exit(1)
+        #sys.exit(1)
 
 # http://api.dnsmadeeasy.com/V2.0/dns/managed/{domain_id}/records
 def delete_txt_record(args):
